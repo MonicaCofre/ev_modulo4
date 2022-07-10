@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(7, 15, 58);
+  font-family: 'Indie Flower';
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 50PX;
+  letter-spacing: 15px;
+}
+
+.item{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10px;
+
+}
+
+.input {
+  width: 450px;
+  height: 50px;
+  margin: 5px;
+  padding: 0px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 18px;
+  font-family: 'Indie Flower';
+  font-weight: bold;
+}
+
+.item-input {
+  width: 700px;
+  height: 50px;
+  margin: 5px;
+  padding: 0px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 18px;
+  font-family: 'Indie Flower';
+  font-weight: bold;
+}
+
+
+.boton-agregar {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 25px ;
+  font-weight: bolder;
+  background-color: rgb(255, 6, 46);
+
+}
+
+.boton-agregar :hover {
+  opacity: 0.9;
+}
+
+
+.boton-editar {
+  margin:0 5px; 
+  border: none;
+  background: none;
+  color: #62d0ff;
+  font-size: 2.1rem;
+
+}
+
+.boton-remover {
+  width: 50px;
+  height: 50px;
+  margin:0 5px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(255, 6, 46);
+  color: #bbcdd4;
+  font-size: 25px ;
+}
